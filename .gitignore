@@ -16,8 +16,8 @@ env/
 # PyCharm
 .idea/
 
-# Mac-specific files
+# OS-specific files
 .DS_Store
 
-# Environment variable files
+# Environment variables
 .env
