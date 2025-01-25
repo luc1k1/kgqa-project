@@ -1,0 +1,10 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+
+dbr:Simba dbo:father dbr:Mufasa .
+dbr:Simba dbo:species dbr:Lion .
+dbr:Mufasa dbo:spouse dbr:Sarabi .
+
+dbr:LionKing dbo:starring dbr:Simba .
+dbr:LionKing dbo:starring dbr:Mufasa .

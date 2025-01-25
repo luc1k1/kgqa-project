@@ -1,0 +1,25 @@
+kgqa-project
+├── data
+│   ├── raw
+│   │   └── small_dbpedia_subset.ttl       # Example of a local knowledge graph in Turtle format
+│   └── processed
+│       └── ...
+├── kg
+│   ├── build_kg.py                       # Scripts to build/load your graph database (Neo4j, RDFLib, etc.)
+│   └── schemas                           # Possible schema definitions if needed
+├── modules
+│   ├── entity_linking.py                # Entity detection & linking code
+│   ├── relation_extraction.py           # Classify or extract the relationship from the question
+│   ├── query_builder.py                 # Convert recognized entities + relation into SPARQL/Cypher queries
+│   └── pipeline.py                      # End-to-end pipeline that orchestrates all modules
+├── notebooks
+│   ├── exploration.ipynb                # Jupyter notebook(s) for data exploration & testing
+│   └── ...
+├── tests
+│   ├── test_entity_linking.py
+│   ├── test_relation_extraction.py
+│   └── ...
+├── requirements.txt                     # Python dependencies
+├── Dockerfile                           # Optional Docker setup
+├── README.md
+└── run_app.py                           # Main entry script for the application (CLI or web interface)
