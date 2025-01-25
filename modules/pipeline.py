@@ -20,7 +20,7 @@ class KGQAPipeline:
         # 2) Relation Extraction
         relation_uri = extract_relation(question)
         if not relation_uri:
-            return "No known relation found in the question."
+            return "No known relatio found in the question."
 
         # 3) Query
         sparql_query = build_sparql_query(entity_uri, relation_uri)
