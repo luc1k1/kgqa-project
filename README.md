@@ -10,7 +10,6 @@
 - [Features](#features)
 - [Architecture](#architecture)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
